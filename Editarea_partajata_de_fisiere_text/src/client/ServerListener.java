@@ -19,7 +19,7 @@ public class ServerListener implements Runnable {
                           List<String> buffer,
                           boolean[] editAllowed,
                           boolean[] editResponseReceived,
-                          boolean[] fileLoaded,   // 👈 ADĂUGAT
+                          boolean[] fileLoaded,   
                           Object editLock) {
 
         this.in = in;
@@ -27,7 +27,7 @@ public class ServerListener implements Runnable {
         this.buffer = buffer;
         this.editAllowed = editAllowed;
         this.editResponseReceived = editResponseReceived;
-        this.fileLoaded = fileLoaded; // 👈 IMPORTANT
+        this.fileLoaded = fileLoaded;
         this.editLock = editLock;
     }
 
