@@ -35,7 +35,7 @@ public class ClientMain {
             new Thread(new ServerListener(
                     in, out, buffer,
                     editAllowed, editResponseReceived,
-                    fileLoaded,   // 👈 ADĂUGAT
+                    fileLoaded,   
                     editLock
             )).start();
 
