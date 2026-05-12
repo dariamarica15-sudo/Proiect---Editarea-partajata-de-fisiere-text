@@ -18,7 +18,6 @@ La un moment dat, **un singur client poate edita un fișier**.
 - Sockets (TCP)
 - Concurență (threads)
 - I/O pentru fișiere
-- Docker (pentru rularea serverului)
 
 ---
 
@@ -119,15 +118,6 @@ java server.ServerMain
 
 ```bash
 java client.ClientMain
-```
-
-## Rulare cu Docker
-
-Pentru a construi și rula serverul folosind Docker:
-
-```bash
-docker build -t text-editor-server .
-docker run -p 1234:1234 text-editor-server
 ```
 
 ---
